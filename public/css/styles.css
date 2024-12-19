@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background: #ffffff;
+    padding: 15px;
+    border-right: 1px solid #dddddd;
+}
+
+.chat-area {
+    float: right;
+    width: 70%;
+    padding: 15px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.message.sent {
+    background: #e1ffc7;
+    text-align: right;
+}
+
+.message.received {
+    background: #ffffff;
+    text-align: left;
+}
+
+.input-area {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-area input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.input-area button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background: #2c3e50;
+}
+
+.file-upload {
+    margin-top: 10px;
+}
+
+.emoji-picker {
+    position: absolute;
+    display: none;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.emoji-picker div {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.emoji-picker div:hover {
+    background: #f0f0f0;
+}
