@@ -1,5 +1,5 @@
 {
-    "name": "web-chat-app",
+    "name": "vendor/web-chat-app",
     "description": "A feature-rich web-based chat application.",
     "type": "project",
     "require": {
