@@ -1,0 +1,16 @@
+# This file is used for URL rewriting and other server configurations.
+
+RewriteEngine On
+
+# Redirect all requests to the public directory
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L]
+
+# Handle PHP files
+AddType application/x-httpd-php .php
+
+# Disable directory listing
+Options -Indexes
+
+# Set the default index file
+DirectoryIndex index.php index.html
