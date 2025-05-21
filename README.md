@@ -9,7 +9,7 @@ This project is a feature-rich web-based chat application built using PHP, HTML,
 - **Emojis**: An emoji picker for inserting emojis in messages.
 - **Voice and Video Calls**: One-on-one voice and video calls.
 - **Screen Sharing**: Users can share their screens during a video call.
-
+ 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript (with WebRTC for voice/video calls and screen sharing)
 - **Backend**: PHP for server-side logic
